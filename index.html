@@ -1,9 +1,107 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <link rel="stylesheet" href="index.css" />
-  </head>
-  <body>
-    <!-- escreva seu codigo aqui -->
-  </body>
+
+<!-- 
+    Para este projeto foram utilizados:
+    * Framework: 
+        - Bootstrap: para estilizar o projeto; 
+        - Font Awesome: para inserir os icones (icone do Facebook e Google).
+
+    * Libs: 
+        - Jquery: para realizar a formatação do campo de telefone/celular.
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/index.css" />
+    <script type="text/javascript" src="./assets/bootstrap-4.4.1-dist/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="./assets/bootstrap-4.4.1-dist/js/jquery.mask.js"></script>
+    <link rel="stylesheet" href="./assets/bootstrap-4.4.1-dist/css/bootstrap.min.css" />
+    <script type="text/javascript" src="./assets/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Front-Challange</title>
+</head>
+
+<body>
+    <div class="container">
+        <section class="content">
+            <div class="content-photo">
+                <img src="./img/pug.png" class="content-photo-pug">
+            </div>
+
+            <div class="content-form">
+                <h2 class="content-form-title">Create an Account!</h2>
+                <form action="" method="post">
+                    <div class="content-form-items">
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" id="firstName" class="form-control" placeholder="First Name">
+                            </div>
+                            <div class="col">
+                                <input id="phone" class="form-control" placeholder="Phone">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <input type="email" id="email" class="form-control" placeholder="Email Address">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <input type="password" id="password" class="form-control" placeholder="Password">
+                            </div>
+
+                            <div class="col">
+                                <input type="password" id="repeatPassword" class="form-control"
+                                    placeholder="Repeat Password">
+                            </div>
+                        </div>
+                        <div id="res"></div>
+
+                        <div class="row">
+                            <div class="col">
+                                <button type="button" class="btn btn-primary" id="btn-register-account"
+                                    onclick="verifyPassword()">Register Account</button>
+                            </div>
+                        </div>
+                </form>
+
+                <section id="social-account">
+                    <div class="row">
+                        <div class="col">
+                            <div class="content-form-social-account">
+                                <button type="submit" class="btn btn-secondary" id="btn-register-google">
+                                    <i class="fa fa-google"></i> Register with Google
+                                </button>
+                                <button type="submit" class="btn btn-primary" id="btn-register-facebook">
+                                    <i class="fa fa-facebook-f"></i> Register with Facebook
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="password-link">
+                    <div class="row">
+                        <div class="col">
+                            <div class="content-form-link-forgot">
+                                <a href="#">Forgot Password?</a>
+                            </div>
+                            <div class="content-form-link-login">
+                                <a href="#">Already have a account? Login!</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </div>
+</body>
+
+<script src="./assets/js/index.js"></script>
+
 </html>
