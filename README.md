@@ -19,5 +19,5 @@ O projeto consiste em desenvolver a interface de uma aplicação web, seguindo a
 
 # Resultado final - Layout Responsivo
 - <h3> Tela do Desafio </h3>  
-![index](https://user-images.githubusercontent.com/14812860/72190891-77de4380-33df-11ea-9219-b820d1dc24d8.png)
+![index](https://user-images.githubusercontent.com/14812860/72193183-10c48d00-33e7-11ea-8062-5b504fae9267.png)
 
