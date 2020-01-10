@@ -1,16 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 body {
     background: #2e53c5 !important;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif !important;
 }
 
 .content-form-title {
     text-align: center;
+    color: #3d3c41;
     margin: 60px 0px -49px 0px;
+    font-size: 1.6rem !important;
 }
 
 .form-control {
     border-radius: 30px !important;
     padding: 1.375rem .75rem !important;
+    font-size: 0.9em !important;
 }
 
 .row {
@@ -37,6 +42,17 @@ body {
 a {
     text-decoration: none;
 }
+
+
+/* Border */
+.content-photo {
+    border-radius: 6px 0px 0px 6px;
+}
+
+.content-form {
+    border-radius: 0px 6px 6px 0px;
+}
+
 
 /* Image */
 .content-photo {
@@ -88,21 +104,22 @@ a {
     padding: 9px;
     width: 100%;
 }
-
 .register-size, .register-account {
     font-size: .9em;
 }
 
+
 /* Link */
-.content-form-link-forgot {
-    margin: 3px 0px 5px 0px;
+.link-forgot {
+    margin: 3px 0px 0px 0px;
 }
 
-.content-form-link-forgot a, .content-form-link-login a {
+.link-forgot a, .link-login a {
     color: #1141cc;
+    font-size: .9em;
 }
 
-.content-form-link-forgot a:hover, .content-form-link-login a:hover {
+.link-forgot a:hover, .link-login a:hover {
     text-decoration: none;
 }
 
@@ -198,6 +215,14 @@ a {
     .content-form-title {
         margin: 30px 0px -49px 0px;
     }
+
+    .content-form {
+        border-radius: 0px 0px 6px 6px;
+    }
+
+    .content-photo {
+        border-radius: 6px 6px 0px 0px;
+    }
 }
 
 
@@ -221,6 +246,14 @@ a {
     .content-form {
         margin: 0px 0px 15px 0px;
     }
+
+    .content-form {
+        border-radius: 0px 0px 6px 6px;
+    }
+
+    .content-photo {
+        border-radius: 6px 6px 0px 0px;
+    }
 }
 
 /* Telefones em paisagem a tablet em retrato */
@@ -242,6 +275,14 @@ a {
     .content-form {
         margin: 0px 0px 15px 0px;
     }
+
+    .content-form {
+        border-radius: 0px 0px 6px 6px;
+    }
+
+    .content-photo {
+        border-radius: 6px 6px 0px 0px;
+    }
 }
 
 /* Telefones em paisagem e abaixo */
@@ -256,11 +297,11 @@ a {
 
     .content-photo {
         height: 313px;
-        margin-top: 25px;
+        margin-top: 15px;
     }
 
     .content-form {
-        margin-top: 0px;
+        margin: 0px 0px 15px 0px;
         height: 625px;
     }
 
@@ -268,10 +309,26 @@ a {
         width: 50%;
         margin: 105px 0px 0px 160px;
     }
+
+    .content-form {
+        border-radius: 0px 0px 6px 6px;
+    }
+
+    .content-photo {
+        border-radius: 6px 6px 0px 0px;
+    }
 }
 
 @media (max-width: 435px) { 
     .content-photo-pug {
         margin: 155px 0px 0px 120px;
+    }
+
+    .content-form {
+        border-radius: 0px 0px 6px 6px;
+    }
+
+    .content-photo {
+        border-radius: 6px 6px 0px 0px;
     }
 }
