@@ -38,7 +38,6 @@ a {
     text-decoration: none;
 }
 
-
 /* Image */
 .content-photo {
     background: #edb506;
@@ -90,10 +89,17 @@ a {
     width: 100%;
 }
 
+.register-size, .register-account {
+    font-size: .9em;
+}
 
 /* Link */
 .content-form-link-forgot {
     margin: 3px 0px 5px 0px;
+}
+
+.content-form-link-forgot a, .content-form-link-login a {
+    color: #1141cc;
 }
 
 .content-form-link-forgot a:hover, .content-form-link-login a:hover {
