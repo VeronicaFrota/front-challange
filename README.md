@@ -1,20 +1,22 @@
-## Envio de projeto
+## Front Challange
+- Este projeto foi desenvolvido utilizando HTML, CSS, JavaScript e JQuery.<br/>
+O projeto consiste em desenvolver a interface de uma aplicação web, seguindo as seguintes instruções:
 
-**Intruções** 
+- O layout deve ser feito utilizando [HTML](https://www.w3schools.com/html/), [CSS](https://www.w3schools.com/css/), [Javascript](https://www.w3schools.com/js/) e se julgar necessário [JQuery](https://www.w3schools.com/jquery/)
+- O campo Phone deve aceitar apenas números e deve ter máscara
+- Caso o campo Repeat Password for diferente do Password, deve haver uma mensagem avisando
+- Ao submeter o formulario deve ser apresentado os valores através de um alert
+- Tela do desafio a ser feita:
+ - <img src="https://i.imgur.com/141O3Aa.jpg" width="100%" alt="Form image"/>
 
-* Baixe o repositório do modelo inicial ou faça o fork ou clone dele.
-* Inicie a aplicação estática para conferir se ela funciona.
-* Confira com frequência se o projeto desenvolvido está de acordo com as especificações.
-* Deixe um comentário para o revisor em caso de qualquer dúvida.
-* O layout deve ser feito utilizando [HTML](https://www.w3schools.com/html/), [CSS](https://www.w3schools.com/css/), [Javascript](https://www.w3schools.com/js/) e se julgar necessário [JQuery](https://www.w3schools.com/jquery/)
-* Utilização de libs e frameworks deve ser comentado
+## Libs e Frameworks Utilizados
+- Framework: <br>
+  - Bootstrap: para estilizar o projeto  <br>
+  - Font Awesome: para inserir os icones (icone do Facebook e Google)
 
-**Especificações** 
+- Libs: <br>
+  - Jquery: para realizar a formatação do campo de telefone/celular
 
-* O campo Phone deve aceitar apenas números e deve ter máscara
-* Caso o campo Repeat Password for diferente do Password, deve haver uma mensagem avisando
-* Ao submeter o formulario deve ser apresentado os valores através de um alert
-
-**Tela do desafio**
-
-<img src="https://i.imgur.com/141O3Aa.jpg" width="100%" alt="Form image"/>
+# Resultado final - Layout Responsivo
+- <h3> Tela do Desafio </h3>  
+![index](https://user-images.githubusercontent.com/14812860/72189556-db667200-33db-11ea-9150-181cb39a1dab.png)
