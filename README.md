@@ -10,12 +10,12 @@ O projeto consiste em desenvolver a interface de uma aplicação web, seguindo a
  - <img src="https://i.imgur.com/141O3Aa.jpg" width="100%" alt="Form image"/>
 
 ## Libs e Frameworks Utilizados
-- Framework: <br>
-  - Bootstrap: para estilizar o projeto  <br>
-  - Font Awesome: para inserir os icones (icone do Facebook e Google)
+- Frameworks: <br>
+  - Bootstrap 4.4: para estilizar o projeto  <br>
+  - Font Awesome 5.12.0: para inserir os icones (icone do Facebook e Google)
 
 - Libs: <br>
-  - Jquery: para realizar a formatação do campo de telefone/celular
+  - Jquery 3.4.1: para realizar a formatação do campo de telefone/celular
 
 # Resultado final - Layout Responsivo
 - <h3> Tela do Desafio </h3>  
