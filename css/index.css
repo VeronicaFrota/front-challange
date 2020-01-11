@@ -124,7 +124,7 @@ a {
 }
 
 
-/* Desktop grande */
+/* Desktop */
 @media (min-width: 1200px) {
     .content-photo, .content-form {
         margin-top: 20px;
@@ -136,7 +136,7 @@ a {
 }
 
 
-/* Tablet em retrato a paisagem e desktop */
+/* Tablet in portrait landscape and desktop */
 @media (min-width: 980px) and (max-width: 1199px) {
     .content-photo, .content-form {
         margin-top: 20px;
@@ -157,7 +157,7 @@ a {
     }
 }
 
-/* Tablet em retrato a paisagem e desktop */
+/* TTablet in portrait landscape and desktop */
 @media (min-width: 980px) and (max-width: 991px) {
     #res {
         font-size: .9em;
@@ -191,7 +191,7 @@ a {
 }
 
 
-/* Tablet em retrato a paisagem e desktop */
+/* Tablet in portrait landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
     .content-photo, .content-form {
         width: 690px;
@@ -226,7 +226,7 @@ a {
 }
 
 
-/* Telefones em paisagem a tablet em retrato */
+/* Phones landscaped tablet in portrait  */
 @media (min-width: 481px) and (max-width: 767px) {
     #res {
         font-size: .9em;
@@ -256,7 +256,7 @@ a {
     }
 }
 
-/* Telefones em paisagem a tablet em retrato */
+/* Phones landscaped tablet in portrait */
 @media (min-width: 480px) and (max-width: 575px) {
     #res {
         font-size: .8em;
@@ -285,7 +285,7 @@ a {
     }
 }
 
-/* Telefones em paisagem e abaixo */
+/* Phones landscaped tablet in portrait  */
 @media (max-width: 479px) { 
     #res {
         font-size: .8em;

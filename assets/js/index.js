@@ -1,5 +1,5 @@
 
-// Exibe os dados do usuário em um alert
+// Displays user data in an alert
 function userData() {
     var name = document.querySelector('input#firstName').value
     var phone = document.querySelector('input#phone').value
@@ -8,7 +8,7 @@ function userData() {
 }
 
 
-// Verifica se a senha e confirmação de senha são iguais
+// Checks whether password and password confirmation are the same
 function verifyPassword() {
     var password = document.querySelector('input#password').value
     var repeatPassword = document.querySelector('input#repeatPassword').value
@@ -23,7 +23,7 @@ function verifyPassword() {
     }
 }
 
-// Máscara para formatação de telefone/celular
+// Mask for phone/cell formatting
 $(document).ready(function () {
     var SPMaskBehavior = function (val) {
         return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 0000-00009';
